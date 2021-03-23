@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <EditText
-
+        android:id="@+id/edtUSD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="USD"
@@ -17,14 +17,14 @@
         android:gravity="center_horizontal" />
 
     <Button
-
+        android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="OK" />
 
     <TextView
-
+        android:id="@+id/tvRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="*1.00 USD = 30 THB"
@@ -32,13 +32,13 @@
        />
 
     <TextView
-
+        android:id="@+id/tvUSD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="USD"
         android:layout_gravity="center"/>
     <TextView
-
+        android:id="@+id/tvTHB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="THB"
